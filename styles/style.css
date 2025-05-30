@@ -1,0 +1,46 @@
+/* universal styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* navigation styles */
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 160px;
+    align-items: center;
+    padding: 24px 160px;
+    background-color: background: rgb(245, 245, 245);
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+nav ul li .bangladesh {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul li .login {
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+}
