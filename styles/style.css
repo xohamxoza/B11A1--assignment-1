@@ -1,18 +1,30 @@
 /* universal styles */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
 
+/* shared section  */
+
+.btn {
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+
+
 /* navigation styles */
 
+header {
+    margin-bottom: 20px;
+}
 .navbar ul {
     display: flex;
     justify-content: space-between;
     margin: 25px 160px;
     align-items: center;
-    padding: 24px 160px;
-    background-color: background: rgb(245, 245, 245);
+    margin-bottom: 50px;
 }
 
 ul li {
@@ -43,4 +55,58 @@ nav ul li .login {
     color: rgb(0, 106, 80);
     font-size: 18px;
     font-weight: 600;
+}
+
+/* banner section  */
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    margin: 0 160px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);    
+}
+
+.caption {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    /* align-self: stretch; */
+}
+h1 {
+    max-width: 622px;
+    max-height: 200px;
+}
+.title {
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.btn1 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 34px 17px 34px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 25px;
+}
+
+.banner-image {
+    margin: 0px 64px;
 }
