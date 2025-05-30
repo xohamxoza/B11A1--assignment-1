@@ -135,6 +135,7 @@ a:hover {
     margin: 80px 160px;
     /* padding: 24px; */
     background-color: #F1F1F3;
+    /* width: auto; */
     
 }
 
@@ -171,9 +172,6 @@ a:hover {
     margin: 32px 0px;
 }
 
-.card-img {
-
-}
 
 h4 .cap {
     color: rgba(14, 14, 14, 0.8);
@@ -200,4 +198,163 @@ h4 .cap {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+/* vision section   */
+
+.vision {
+    margin: 80px 160px;
+}
+.head2 {
+    color: rgb(14, 14, 14);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 24px 0px;
+}
+
+.vision-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.vision-card {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 32px 0;
+}
+
+.cardA {
+    
+    background: rgba(84, 144, 245, 0.2);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-right: 24px;
+    height: 325px;
+    width: 500.67px;
+
+}
+
+.cardA-btn {
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    color: white;
+    border: none;
+    margin-top: 24px;
+    gap: 48;
+
+}
+
+.cardA-btn:hover {
+    background-color: white;
+    color: rgb(84, 144, 245);
+}
+
+.cardB {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+    /* margin: 0px 24px; */
+    margin-right: 24px;
+    flex-grow: 1;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    height: 325px;
+    width: 500.67px;
+}
+
+.cardB-btn {
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    color: white;
+    border: none;
+    margin-top: 24px;
+
+}
+.cardB-btn:hover {
+    background-color: white;
+    color: rgb(9, 218, 214);
+}
+.cardC {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    flex-grow: 1;
+    /* margin: 0px 24px; */
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    height: 325px;
+    width: 500.67px;
+
+}
+
+.cardC-btn {
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    margin-top: 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    color: white;
+}
+
+.cardC-btn:hover {
+    background-color: white;
+    color: rgb(255, 194, 57);
+}
+
+.quote-container {
+    margin: 48px 0;
+    padding: 48px 24px 48px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url('../assets/images/quote-bg.png');
+    background-position: top-left;
+    background-repeat: no-repeat;
+
+}
+.quote {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.head3 {
+    margin: 12px 0;
+}
+
+.caption2 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
