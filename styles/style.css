@@ -718,9 +718,10 @@ h1.donate-head {
 
 
 hr {
-    margin: 31px 0;
-    /* max-width: 1000x; */
-    border: 2px solid rgba(14, 14, 14, 0.1);
+    margin: 20px auto;
+    width: 70%;
+    border: none;
+    border-top: 2px solid rgba(14, 14, 14, 0.1);
 }
 
 .sicon {
