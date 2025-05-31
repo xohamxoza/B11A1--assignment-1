@@ -7,6 +7,7 @@
 
 body {
     background-color: #F1F1F3;
+    font-family: "Fira Sans", sans-serif;
 }
 
 /* shared section  */
@@ -347,7 +348,7 @@ h4 .cap {
     text-align: left;
 }
 .chief {
-    
+
 }
 .caption2 {
     color: rgba(14, 14, 14, 0.6);
