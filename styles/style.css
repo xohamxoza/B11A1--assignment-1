@@ -587,6 +587,15 @@ h1.donate-head {
     padding: 35px 40px;
 }
 
+.donate-amount:focus {
+    background-color: rgb(198, 228, 214);
+    color: black;
+}
+
+.donate-amount:hover {
+    background-color: rgb(198, 228, 214);
+    color: black;
+}
 
 .ot {
     max-width: 900px;
@@ -625,12 +634,71 @@ h1.donate-head {
     color: rgb(0, 106, 80);
 }
 
-.donate-amount:focus {
-    background-color: rgb(198, 228, 214);
-    color: black;
-}
+
 
 
 /* / newsletter section / */
 
+.newsletter{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 80px 160px;
+    padding: 80px 100px;
+
+}
+.newsletter-container {
+    /* margin: 80px 160px; */
+    display: flex;display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    
+
+}
+
+.letter-head {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.letter-des {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.field {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    padding: 18px 40px 18px 40px;
+    width: 500px;
+    height: auto;
+}
+
+.subscribe {
+    width: 150px;
+    height: 56px;
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: white;
+    
+}
+
+.subscribe:hover{
+    background-color: white;
+    border: 1px solid rgb(0, 106, 80);
+    color: rgb(0, 106, 80);
+}
 
